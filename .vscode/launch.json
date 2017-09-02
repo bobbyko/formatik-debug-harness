@@ -45,6 +45,34 @@
             "console": "internalConsole",
             "stopAtEntry": false,
             "internalConsoleOptions": "openOnSessionStart"
+        },
+        {
+            "name": "9.1 CSV-CSV",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceRoot}/bin/Debug/netcoreapp1.1/DebugHarness.dll",
+            "args": ["-i", "../Tests/TestData/9.csv-csv.1/input.csv", "-e", "../Tests/TestData/9.csv-csv.1/example.txt"],
+            "cwd": "${workspaceRoot}",
+            // For more information about the 'console' field, see https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md#console-terminal-window
+            "console": "internalConsole",
+            "stopAtEntry": false,
+            "internalConsoleOptions": "openOnSessionStart"
+        },
+        {
+            "name": "9.2 CSV-CSV",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceRoot}/bin/Debug/netcoreapp1.1/DebugHarness.dll",
+            "args": ["-i", "../Tests/TestData/9.csv-csv.2/input.csv", "-e", "../Tests/TestData/9.csv-csv.2/example.txt"],
+            "cwd": "${workspaceRoot}",
+            // For more information about the 'console' field, see https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md#console-terminal-window
+            "console": "internalConsole",
+            "stopAtEntry": false,
+            "internalConsoleOptions": "openOnSessionStart"
         }
     ]
 }
